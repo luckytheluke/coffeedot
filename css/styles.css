@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url('../assets/img/shutterstock_40870753.jpg') no-repeat center center fixed;
+    line-height: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: "Lucida Sans Unicode", sans-serif !important;
+}
+.container {
+    max-width: 1920px !important;
+}
+
+.carousel-item {
+    height: 90vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel-caption {
+    width:30%;
+    position: relative !important;
+    top: 20%;
+}
+.carousel-control-prev:hover {
+    background-color: rgba(255, 205, 153, 0.3);
+}
+
+.carousel-control-next:hover {
+    background-color: rgba(255, 205, 153, 0.3);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+#services {
+    position: relative;
+    z-index: 1020;
+    margin-top: -6%;
+}
+
+.card-body {
+    background-color: #000;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.carousel-caption {
+    background-color: rgba(25, 0, 0, 0.5);
+    margin-bottom: 17%;
+}
+
+.content {
+    padding: 5% 10% 5% 10%;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.content h1 {
+    margin: 0;
+    padding: 0;
+}
+.svgimg {
+    padding: 20%;
+}
+.icon {
+    margin: 0 auto;
+    position: relative;
+}
+.svgcaption {
+    padding: 10%;
+}
+.services-icons {
+    padding: 5%;
+}
