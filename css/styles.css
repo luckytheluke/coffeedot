@@ -22,7 +22,7 @@ body {
     background-size: cover;
 }
 .carousel-caption {
-    width:30%;
+    width:50%;
     position: relative !important;
     top: 20%;
 }
